@@ -1,7 +1,14 @@
 require 'capistrano/setup'
 require 'capistrano/deploy'
+require 'capistrano/nginx'
+require 'capistrano/puma'
+require 'capistrano/puma/nginx'
 require 'capistrano/rails'
-require 'capistrano/passenger'
+require 'capistrano/rails/db'
+require 'capistrano/rails/console'
+require 'capistrano/upload-config'
+require 'sshkit/sudo'
+
 # If you are using rbenv add these lines:
 require 'capistrano/rbenv'
 set :rbenv_type, :user

@@ -50,7 +50,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'capistrano', '~> 3.7', '>= 3.7.1'
   gem 'capistrano-nginx'
-  gem 'capistrano3-puma'
+  gem 'capistrano-passenger'
   gem 'capistrano-rails'
   gem 'capistrano-rails-db'
   gem 'capistrano-rails-console'
